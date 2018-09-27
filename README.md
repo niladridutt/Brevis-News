@@ -21,10 +21,11 @@ Brevis (Latin word for short) News is a news summariser which can generate a sum
 ### Things that we'll build
 
 1) A website so that anyone can use it 
-2) News summariser model (This will require a lot of work)
-3) Fetching an article from a URL
-4) Trending news list
-5) Back-end to support the entire architecture  
+2) Text preprocessing
+3) News summariser model (This will require a lot of work)
+4) Fetching an article from a URL
+5) Trending news list
+6) Back-end to support the entire architecture  
 
 ### New Ideas
 Feel free to explore and add any feature you think will improve this project.
