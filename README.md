@@ -1,7 +1,7 @@
 # News-Summariser
 Open source project to generate a summary of any news article.
 
-![GitHub](https://img.shields.io/badge/License-Apache%202.0-blue.svg) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+![GitHub](https://img.shields.io/badge/NTWoC-2018-blue.svg) ![GitHub](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 ## NTWoC Project Details
 
