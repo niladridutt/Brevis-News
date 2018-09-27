@@ -9,6 +9,8 @@ Open source project to generate a summary of any news article.
 
 Brevis (Latin word for short) News is a news summariser which can generate a summary of any news article (technically it will be able to generate a summary of any article but we'll model it to work better with news). This will be an open source competitor to Inshorts, news in 60 words.
 
+![Screenshot](logo.png)
+
 ### Skill Requirements (You can apply if you have any one of the skills mentioned below)
 1) Python
 2) NLP 
