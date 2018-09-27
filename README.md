@@ -7,7 +7,7 @@ Open source project to generate a summary of any news article.
 
 ### Abstract
 
-Brevis (Latin word for short) News is a news summariser which can generate a summary of any news article (technically it will be able to generate a summary of any article but we'll model it to work better with news). This will be an open source competitor to Inshorts, news in 60 words (except for the fact that we'll use AI instead).
+Brevis (Latin word for short) News is a news summariser which can generate a summary of any news article (technically it will be able to generate a summary of any article but we'll model it to work specifically with news). This will be an open source competitor to Inshorts, news in 60 words (except for the fact that we'll use AI).
 
 ![Screenshot](logo.png)
 
