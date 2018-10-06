@@ -12,7 +12,7 @@ Brevis (Latin word for short) News is a news summariser which can generate a sum
 ![Screenshot](logo.png)
 
 ### Skill Requirements 
-(You can apply if you have ANY ONE of the skills mentioned below)
+(You can apply if you have ***ANY ONE*** of the skills mentioned below)
 1) Python
 2) NLP 
 3) Deep Learning
