@@ -17,10 +17,10 @@
 				<center><p>Shorten News. Read the most important parts of the news.</p></center>
 			</header>
 
-		<center><form action="{% url 'summariser' %}" method="post">
+		<center><form method = "post">
 			{% csrf_token %}
-			<input placeholder="Enter article URL" type="text" name="text">
-		    <input type="submit">
+			{{form}}
+		    <button type="submit">Submit</button>
 		</form></center>
 		<h1>Trending topics on the web</h1>
 		{% for term in trending_terms %}
