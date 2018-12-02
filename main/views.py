@@ -4,5 +4,5 @@ from django.shortcuts import render
 
 def index(request):
     return render(request,'templates/index.html',{})
-def output(request):
+def summariser(request):
     return render(request,'templates/output.html',{})
