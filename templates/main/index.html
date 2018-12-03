@@ -1,0 +1,37 @@
+{% load static %}
+{% load to_plus %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Brevis News</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="{% static 'CSS/main.css' %}">
+		<style>
+		body, html {
+		    height: 100%;
+		}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<header id="header">
+				<center><h1>Brevis News</h1></center>
+				<center><p>Shorten News. Read the most important parts of the news.</p></center>
+			</header>
+
+		<center><form method = "post">
+			{% csrf_token %}
+			{{form}}
+		    <button type="submit">Submit</button>
+		</form></center>
+		<h1>Trending topics on the web</h1>
+		{% for term in trending_terms %}
+		<li><a href='https://www.google.co.in/search?q={{ term|to_plus }}'>{{term}}</a></li>
+		{% endfor %}
+		<h1>Trending sites on the web</h1>
+		{% for url in trending_urls %}
+		<li><a href='{{ url }}'>{{url}}</a></li>
+		{% endfor %}
+
+	</body>
+</html>
