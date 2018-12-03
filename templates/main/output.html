@@ -6,18 +6,24 @@
 	<body class="is-preload">
 
 		<!-- Header -->
-			<header id="header">
+			<center><header id="header">
 				<h1>Brevis News</h1>
 				<p>Shorten News. Read the most important parts of the news.</p>
-			</header>
+			</header></center><br>
+
+		<center><form method = "post">
+			{% csrf_token %}
+			{{form}}
+			<button type="submit">Submit</button>
+		</form></center>
 
 		<!-- Signup Form -->
 			<h2> Article </h1>
-			<p id="summary">{{text}}</p>
+			<p>{{text|safe}}</p>
 			<br>
 			<br>
 			<h2> Article Summary</h1>
-			<p id="summary">{{text_summary}}</p>
+			<!--<p id="summary">{{text_summary}}</p>-->
 
 			
 
