@@ -16,4 +16,10 @@ def index(request):
 def summariser(request):
     newsurl = request.session.get('weblink')
     text = get_text(newsurl)
-    return render(request,'main/output.html',{'text':text})
+    if request.method == 'POST':
+        form = newssite(request.POST)
+        if form.is_valid():
+            request.session['weblink'] = form.cleaned_data['weblink']
+            return redirect('summariser')
+    form = newssite()
+    return render(request,'main/output.html',{'text':text,'form': form})
