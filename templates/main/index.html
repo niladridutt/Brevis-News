@@ -28,7 +28,7 @@
 		{% endfor %}
 		<h1>Trending sites on the web</h1>
 		{% for url in trending_urls %}
-		<li>{{url}}</li>
+		<li><a href = {{url}}>{{url}}</a></li>
 		{% endfor %}
 
 	</body>

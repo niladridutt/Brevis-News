@@ -1,0 +1,3 @@
+3/12/18- Vinayak:
+    1. Added Experimental folder in root to add code to test and maybe add
+    2. Added dynamic hyperlinks to trending news websites in index.HTML
