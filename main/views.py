@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .Newsletterapi import *
 from .forms import WebsiteForm
 from django.shortcuts import redirect
@@ -13,6 +13,8 @@ def index(request):
             return redirect('summariser')
     form = WebsiteForm()
     return render(request,'main/index.html',{'trending_terms':trends[0],'trending_urls':trends[1],'form': form})
+
+    
 def summariser(request):
     newsurl = request.session.get('weblink')
     text = get_text(newsurl)
