@@ -1,0 +1,6 @@
+3/12/18- Vinayak:
+    1. Added 'Experimental' folder in root to add code to test and maybe add
+    2. Added dynamic hyperlinks to trending news websites in index.HTML
+    3. Added Source HTML rendering
+    4. Added a .py named News to test Newspaper api along with a text file to compare different outputs
+    5. Added search.py to call google searches for future dev

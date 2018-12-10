@@ -9,10 +9,10 @@ def trending():
 
 
 def get_text(url):
-	article=Article(url)
+	article=Article(url, keep_article_html=True)
 	article.download()
 	article.parse()
-	text=article.text
+	text=article.article_html
 	return text
 
 
