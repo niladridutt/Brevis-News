@@ -3,6 +3,7 @@ from allennlp.data import Instance
 from allennlp.data.token_indexers import SingleIdTokenIndexer, TokenCharactersIndexer
 from allennlp.data.tokenizers import Token
 from allennlp.data.vocabulary import Vocabulary
+from allennlp.data.dataset import Batch
 from allennlp.modules.token_embedders import Embedding, TokenCharactersEncoder
 from allennlp.modules.text_field_embedders import TextFieldEmbedder, BasicTextFieldEmbedder
 from allennlp.modules.seq2vec_encoders import CnnEncoder
@@ -16,6 +17,9 @@ vocab = Vocabulary.from_files("vocab")
 character_cnn = torch.load("character_cnn.pt")
 word_embedding = torch.load("word_embedding.pt")
 char_embedding= torch.load("char_embedding.pt")
+
+token_character_encoder = TokenCharactersEncoder(embedding=char_embedding, encoder=character_cnn)
+text_field_embedder = BasicTextFieldEmbedder({"tokens": word_embedding, "characters": token_character_encoder})
 
 def get_embeddings(text):
     words = text.split()
