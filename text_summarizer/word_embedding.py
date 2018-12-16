@@ -6,6 +6,7 @@ from allennlp.data.tokenizers import WordTokenizer
 from allennlp.data.tokenizers.word_splitter import BertBasicWordSplitter
 from allennlp.data.vocabulary import Vocabulary
 from allennlp.modules.token_embedders.bert_token_embedder import PretrainedBertEmbedder
+import re
 
 class preprocessing(object):
   
