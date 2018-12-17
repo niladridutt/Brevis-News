@@ -17,7 +17,7 @@ class preprocessing(object):
   
     def __init__(self,text):
         self.text=text
-    def word_embeddings(self):
+    def bert_vector(self):
         words = re.split(r'\W+',self.text) 
         Text = ' '.join(words)
         
