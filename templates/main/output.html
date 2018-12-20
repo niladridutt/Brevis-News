@@ -5,17 +5,11 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
-			<center><header id="header">
-				<h1>Brevis News</h1>
-				<p>Shorten News. Read the most important parts of the news.</p>
-			</header></center><br>
-
-		<center><form method = "post">
-			{% csrf_token %}
-			{{form}}
-			<button type="submit">Submit</button>
-		</form></center>
+		<!-- IMPORTS HEADER PORTION -->
+		<div class = "container">  
+			{% include 'main/header.html' %}
+			<br><br>
+		</div>
 
 		<!-- Signup Form -->
 			<h2> Article </h1>
