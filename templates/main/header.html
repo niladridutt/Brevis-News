@@ -1,0 +1,10 @@
+<!-- Header Includes the Brevis Title and URL bar. Please create common header here -->
+<header id="header">
+    <center><h1>Brevis News Summariser</h1></center>
+    <center><p>Shorten News. Read the most important parts of the news.</p></center>
+</header>
+<center><form method = "post">
+    {% csrf_token %}
+    {{form}}
+    <button type="submit">Submit</button>
+</form></center>
