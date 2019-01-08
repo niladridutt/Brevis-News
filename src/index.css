@@ -1,0 +1,19 @@
+@import '~antd/dist/antd.css';
+.home {
+    background: url("https://unsplash.com/photos/WYd_PkCa1BY/download?force=true") no-repeat; 
+    background-size: cover;
+    position: fixed; 
+    top: 0; left: 0; right: 0; bottom: 0; 
+    min-width: 100%; min-height: 100%; 
+}
+
+.read {
+    background-color: #bdc3c7;
+    background-size: cover;
+    position: fixed; 
+    top: 0; left: 0; right: 0; bottom: 0; 
+    min-width: 100%; min-height: 100%; 
+}
+.read{
+    overflow-y: auto
+}

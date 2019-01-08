@@ -1,0 +1,46 @@
+.head1 h1{
+    margin-top: -40px;
+    margin-left: 50px;
+    font-family: 'Staatliches', cursive;
+    color: crimson;
+}
+
+.head2 h2{
+    margin-top: 0px;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 30px;
+    text-decoration: bold;
+}
+
+.para p{
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+.head input{
+    background-color: white;
+    padding: 10px 20px;
+    margin-left : 50px;
+    margin-top: 150px;
+    border: none;
+    border-radius: 4px;
+    cursor: text;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.but button{
+    background-color: crimson;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-left : 95px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}

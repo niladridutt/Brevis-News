@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.navbut1{
+    margin-left: 1230px;
+    margin-top: 30px;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+}
+.navbut2{
+    margin-left: 1350px;
+    margin-top: -37px;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+}
