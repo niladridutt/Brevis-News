@@ -1,3 +1,5 @@
+This repository is now deprecated. To check out our updated version visit : https://brevisnews.com/
+
 # Brevis News
 Open source project to generate a summary of any news article.
 
