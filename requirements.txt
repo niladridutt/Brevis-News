@@ -2,7 +2,7 @@ beautifulsoup4==4.6.3
 certifi==2018.11.29
 chardet==3.0.4
 cssselect==1.0.3
-Django==2.1.11
+Django==2.2.13
 feedfinder2==0.0.4
 feedparser==5.2.1
 idna==2.7
